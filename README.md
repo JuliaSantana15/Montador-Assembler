@@ -1,4 +1,4 @@
-## Montador para o Processador Neander
+### Montador para o Processador Neander
 
 ### Descrição
 
@@ -6,12 +6,12 @@ Este projeto consiste na implementação de um montador (assembler) para o proce
 
 O projeto foi desenvolvido com finalidade acadêmica para auxiliar no estudo de Arquitetura de Computadores e Linguagem Assembly.
 
-## Autores
+### Autores
 
 * Júlia Santana dos Santos
 * Nathália Oliveira dos Santos
 
-## Funcionalidades
+### Funcionalidades
 
 * Leitura de arquivos `.asm`;
 * Reconhecimento das instruções da arquitetura Neander;
@@ -20,7 +20,7 @@ O projeto foi desenvolvido com finalidade acadêmica para auxiliar no estudo de 
 * Inclusão do cabeçalho do formato de memória utilizado pelo simulador;
 * Tratamento básico de erros para arquivos inexistentes e instruções inválidas.
 
-## Conjunto de Instruções Suportado
+### Conjunto de Instruções Suportado
 
 | Instrução | Opcode |
 | --------- | ------ |
@@ -36,7 +36,7 @@ O projeto foi desenvolvido com finalidade acadêmica para auxiliar no estudo de 
 | JZ        | 0xA0   |
 | HLT       | 0xF0   |
 
-## Exemplo de Entrada
+### Exemplo de Entrada
 
 Arquivo `prog1.asm`:
 
@@ -47,7 +47,7 @@ STA 82
 HLT
 ```
 
-## Arquivo Gerado
+### Arquivo Gerado
 
 Ao executar o programa, será criado automaticamente um arquivo chamado:
 
@@ -57,7 +57,7 @@ programa.mem
 
 contendo os códigos de operação correspondentes às instruções do arquivo Assembly.
 
-## Compilação
+### Compilação
 
 Utilizando GCC:
 
@@ -65,7 +65,7 @@ Utilizando GCC:
 gcc montador.c -o montador
 ```
 
-## Execução
+### Execução
 
 ```bash
 ./montador programa.asm
@@ -77,7 +77,7 @@ ou, no Windows:
 montador.exe programa.asm
 ```
 
-## Saída Esperada
+### Saída Esperada
 
 Caso a execução seja bem-sucedida, será exibida a mensagem:
 
@@ -85,11 +85,11 @@ Caso a execução seja bem-sucedida, será exibida a mensagem:
 Pronto, O arquivo programa.mem foi criado
 ```
 
-## Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 * Linguagem C
 * Biblioteca padrão da linguagem C (`stdio.h`, `string.h`, `stdlib.h`)
 
-## Objetivo
+### Objetivo
 
 O objetivo deste projeto é demonstrar o funcionamento básico de um montador para a arquitetura Neander, realizando a tradução de programas escritos em Assembly para um formato de memória executável, permitindo compreender os princípios de tradução de instruções e organização de computadores.
