@@ -1,6 +1,6 @@
 ## Montador para o Processador Neander
 
-## Descrição
+### Descrição
 
 Este projeto consiste na implementação de um montador (assembler) para o processador Neander, desenvolvido em linguagem C. O programa é responsável por ler um arquivo em linguagem Assembly (`.asm`), identificar as instruções pertencentes ao conjunto de instruções do Neander e gerar um arquivo de saída no formato `.mem`, contendo os respectivos códigos de operação em formato binário.
 
@@ -8,8 +8,8 @@ O projeto foi desenvolvido com finalidade acadêmica para auxiliar no estudo de 
 
 ## Autores
 
-* Júlia Santana dos Santos – SP3207439
-* Nathália Oliveira dos Santos – SP3217574
+* Júlia Santana dos Santos
+* Nathália Oliveira dos Santos
 
 ## Funcionalidades
 
